@@ -1,0 +1,563 @@
+
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+header{
+position: -webkit-sticky;
+position: sticky;
+top: 0px;
+}
+
+.lyfestyle{
+	border: 1px solid invisible;
+	margin-top: 104px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 905.5px;
+}
+
+
+
+
+
+.main-manu{
+	background: #b8e3f7;
+	text-align: center;
+	margin: 0px  0px 0px;
+	border: 1px solid invisible ;
+	width: 100%;
+	height: 15px;
+}
+.firs-manu{
+	margin: 0px 121px 0px 0px;
+	display: inline-block;
+/* Style for "lifestyle" */
+width: 71px;
+height: 11px;
+color: #03a9f4;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+/* Text style for "l, ifestyl" */
+color: #03a9f4;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.second-manu{
+	margin: 0px 103px 0px 0px;
+	display: inline-block;
+	/* Style for "photodiary" */
+width: 88px;
+height: 11px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+/* Text style for "p, hotodia" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.third-manu{
+	margin: 0px 95px 0px 0px;
+	display: inline-block;
+	/* Style for "music" */
+width: 43px;
+height: 11px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+/* Text style for "m, usic" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.fours-manu{
+	margin: 0px 0px 0px 0px;
+	display: inline-block;
+	/* Style for "travel" */
+width: 52px;
+height: 11px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+/* Text style for "t, ravel" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.lyfe_1{
+	margin-right: 60px;
+	display: inline-block;
+	width: 420px;
+	height: 478px;
+	border: 1px solid invisible;
+}
+
+.lyfe_1__img{
+	/* Style for "image" */
+	width: 420px;
+	height: 279px;
+}
+
+.lyfe_1__h6{
+/* Style for "Lifestyle" */
+width: 63px;
+height: 11px;
+color: #b4ad9e;
+font-family: Ubuntu;
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "L, ifestyl" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.lyfe_1__h2{
+/* Style for "More than" */
+width: 407px;
+height: 30px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "M, ore tha" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.lyfe_1__p{
+/* Style for "Lorem ipsu" */
+width: 414px;
+height: 63px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 11px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "Lorem ipsu" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.lyfe_2{
+	display: inline-block;
+	width: 420px;
+	height: 478px;
+	border: 1px solid invisible;
+}
+
+.lyfe_2__img{
+/* Style for "Filtro fot" */
+width: 419px;
+height: 280px;
+}
+
+.lyfe_2__h6{
+/* Style for "Lifestyle" */
+width: 63px;
+height: 11px;
+color: #b4ad9e;
+font-family: Ubuntu;
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "L, ifestyl" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.lyfe_2__h2{
+/* Style for "Life taste" */
+width: 377px;
+height: 25px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "L, ife tas" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.lyfe_2__p{
+/* Style for "Lorem ipsu" */
+width: 414px;
+height: 63px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 11px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "Lorem ipsu" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.photodiary{
+	border: 1px solid invisible;
+	margin-top: 104px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 905.5px;
+}
+
+.photodiary_1{
+	margin-right: 60px;
+	display: inline-block;
+	width: 420px;
+	height: 478px;
+	border: 1px solid invisible;
+}
+
+.photodiary_1_img{
+/* Style for "image" */
+width: 420px;
+height: 280px;
+}
+
+.photodiary_1_h6{
+/* Style for "photodiary" */
+width: 85px;
+height: 11px;
+color: #b4ad9e;
+font-family: Ubuntu;
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "p, hotodia" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.photodiary_1_h2{
+/* Style for "American d" */
+width: 226px;
+height: 25px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "A, merican" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.photodiary_1_p{
+/* Style for "Lorem ipsu" */
+width: 414px;
+height: 63px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 11px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "Lorem ipsu" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+
+
+.photodiary_2{
+	display: inline-block;
+	width: 420px;
+	height: 478px;
+	border: 1px solid invisible;
+}
+
+.photodiary_2_img{
+/* Style for "image" */
+width: 419px;
+height: 280px;
+}
+
+.photodiary_2_h6{
+/* Style for "photodiary" */
+width: 85px;
+height: 11px;
+color: #b4ad9e;
+font-family: Ubuntu;
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "p, hotodia" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.photodiary_2_h2{
+/* Style for "A day expl" */
+width: 324px;
+height: 30px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "A,  day ex" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.photodiary_2_p{
+/* Style for "Lorem ipsu" */
+width: 414px;
+height: 63px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 11px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "Lorem ipsu" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+
+.button_1{
+	/* Style for "Load more" */
+/* Style for "box" */
+/* Style for "box" */
+
+width: 164px;
+height: 60px;
+border: 1px solid #626262;
+margin: 54px 0px 54px 906px;
+padding: 21px 34px;
+background: #fff;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 20px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "Load more" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.lyfestyle2{
+	border: 1px solid invisible;
+	margin-top: 104px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 905.5px;
+}
+
+.lyfestyle2_1{
+	display: inline-block;
+
+}
+
+.lyfestyle2_1_img{
+	margin-right: 60px;
+  width: 420px;
+  height: 280px;
+}
+
+.lyfestyle2_1_h6{
+  width: 63px;
+  height: 11px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #b4ad9e;
+}
+
+.lyfestyle2_1_h2{
+  width: 321px;
+  height: 30px;
+  font-family: PlayfairDisplay;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #626262;
+}
+
+.lyfestyle2_1_p{
+/* Style for "Lorem ipsu" */
+width: 414px;
+height: 63px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 11px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "Lorem ipsu" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+
+
+
+.lyfestyle2_2{
+	display: inline-block;
+}
+
+.lyfestyle2_2_img{
+  width: 419px;
+  height: 280px;
+}
+
+.lyfestyle2_2_h6{
+  width: 63px;
+  height: 11px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #b4ad9e;
+}
+
+.lyfestyle2_2_h2{
+  width: 224px;
+  height: 30px;
+  font-family: PlayfairDisplay;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #626262;
+}
+
+.lyfestyle2_2_p{
+/* Style for "Lorem ipsu" */
+width: 414px;
+height: 63px;
+color: #626262;
+font-family: "Playfair Display";
+font-size: 11px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "Lorem ipsu" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
