@@ -51,35 +51,24 @@ console.log('площа прямокутника дорівнює', s)
 
 // обсяг циліндра
 
-// радіус
-
-const pi = 3.14;
-
+let v = 0;
 const dC = 4;
-
-const radius = pi * dC * dC;
-console.log('Радіус циліндра -', radius)
-
 const heightC = 10;
-const v = radius * heightC;
-console.log('обсяг циліндра дорівнює', v)
+const radius = dC/2;
+
+v = Math.PI * (radius ** 2) * heightC;
+
+console.log('v=', v);
+
+
 
 
 // Гіпотенуза
+const n = 3;
+const m = 4;
+let g = 0;
 
-   const n = 3;
-   const m = 4;
+g = (n ** 2) + Math.pow(n, 2);
+g = Math.sqrt(g);
 
-   // квадрати катетів
-   const MN1 = Math.pow(3, 2);
-   console.log('Квадрат першого катета дорівнює', MN1);
-
-   const MN2 = Math.pow(4, 2);
-   console.log('Квадрат другого катета дорівнює', MN2)
-
-   const MN3 = MN1 + MN2;
-   console.log('Сума квадратві катетів дорівнює', MN3)
-
-   const gipotenuza = Math.pow(5, 2)
-   console.log('5 в 2-му степені доріванює', gipotenuza,', отже гіпотенуза дорівнює 5м')
-
+console.log('g=', (Math.round(g)));
