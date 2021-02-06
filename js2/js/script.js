@@ -26,18 +26,23 @@ console.log('Значення змінної а4 дорівнює', a4)
 
 let a5 = 5 % 3;
 console.log(alert('5 % 3 = ' + a5))
+console.log('5 % 3 = ' + a5);
 
 let a6 = 3 % 5;
 console.log(alert('3 % 5 = ' + a6))
+console.log('3 % 5 = ' + a6);
 
 let a7 = 5 + '3';
 console.log(alert("5 + '3' = " + a7))
+console.log("5 + '3' = " + a7);
 
 let a8 = '5' - 3;
 console.log(alert("'5' - 3 = " + a8))
+console.log("'5' - 3 = " + a8);
 
 let a9 = 75 + 'кг';
 console.log(alert("75 + 'кг' = " + a9))
+console.log("75 + 'кг' = " + a9);
 
 
 // Площа прямокутника
