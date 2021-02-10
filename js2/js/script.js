@@ -5,7 +5,7 @@ console.log("Ім'я користувача:", UserName);
 
 let MyAge = Number(prompt("Введіть свій вік: "));
 let MyFriendAge = Number(prompt("Введіть вік вашого друга"));
-console.log(alert(('Ваш спільний вік: ') + (MyAge + MyFriendAge)));
+alert(('Ваш спільний вік: ') + (MyAge + MyFriendAge));
 console.log(MyAge + MyFriendAge);
 
 // Значення виводиться в консоль
@@ -73,7 +73,7 @@ const n = 3;
 const m = 4;
 let g = 0;
 
-g = (n ** 2) + Math.pow(n, 2);
+g = (n ** 2) + (m ** 2);
 g = Math.sqrt(g);
 
 console.log('g=', (Math.round(g)));
