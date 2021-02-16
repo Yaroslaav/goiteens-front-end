@@ -69,6 +69,6 @@ console.log(fullName)
 
 const userName = 'yarik';
 let payment = 300;
-console.log(alert('Дякуємо, ' + userName +'! До сплати ' + payment  + ' гривень'));
+alert('Дякуємо, ' + userName +'! До сплати ' + payment  + ' гривень');
 
 console.log('Дякуємо, ' + userName +'! До сплати ' + payment  + ' гривень');
