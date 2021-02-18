@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -24,25 +33,32 @@ a {
 }
 
 .mogo {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 30px;
   color: #95e1d3;
 }
 
 .manu-item {
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
   color: #95e1d3;
 }
 
 .manu-item1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
   color: #f38181;
 }
 
 .head-container {
-  margin-top: 28px;
+  padding-top: 28px;
   display: flex;
   justify-content: space-between;
 }
@@ -72,8 +88,10 @@ a {
 }
 
 .KaushanScript {
-  font-family: "Blackadder ITC", "Trebuchet MS", sans-serif;
+  font-family: 'Kaushan Script';
   font-size: 24px;
+  font-weight: 400;
+  color: #333333;
 }
 
 .Montserrat {
@@ -97,12 +115,15 @@ a {
   margin: 43px auto 66px;
 }
 
+.main{
+  margin-bottom: 92px;
+}
+
 .items-block {
   display: inline-flex;
   justify-content: space-between;
   border: 1px solid invisible;
   flex-wrap: wrap;
-  margin: 0px 0px 95px;
 }
 
 .block_items {
@@ -111,18 +132,6 @@ a {
   justify-content: space-between;
   border: 1px solid invisible;
   margin: 0px 0px 100px 0px;
-}
-
-.items_img {
-}
-
-.items_title {
-}
-
-.items_text {
-}
-
-.p_container {
 }
 
 .help {
@@ -150,9 +159,11 @@ a {
 }
 
 .lorem {
+  margin-bottom: 92px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  margin: 0 0 97px 0;
+  font-weight: 400;
+  color: #999999;
 }
 
 .photo_border {
@@ -166,26 +177,34 @@ a {
 }
 
 .photo_title {
+  margin-top: 31px;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  margin: 32px 0 16px 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333333;
 }
 
 .photo_text {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  margin: 0 0 82px 0;
+  font-weight: 300;
+  font-style: italic;
+  color: #999999;
+  margin: 15px 0 82px 0;
 }
 
 footer {
   border-top: 1px solid #000;
-  height: 63px;
+  min-height: 63px;
 }
 
 .footer_container {
   align-items: center;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  vertical-align: middle;
 }
 
 #id_input {
@@ -197,6 +216,7 @@ footer {
 }
 
 .button {
+  border: 1px solid #95e1d3;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #fff;
@@ -218,9 +238,11 @@ footer {
   margin: 11px 0;
 }
 
-.span {
+.span_container {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+  font-weight: 400;
+  color: #333333;
 }
 
 .spa {
@@ -229,4 +251,35 @@ footer {
   color: #f38181;
 }
 
-photo
+.items_title{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.items_text{
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;  
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.email::placeholder{
+  padding-left: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  color: #cccccc;
+}
+
+.form{
+  display: flex;
+}
+
+.email{
+  border: 1px solid #e7e7e7;
+}

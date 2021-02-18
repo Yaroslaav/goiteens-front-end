@@ -6,15 +6,17 @@ const k2 = '12djd334';
 const k3 = '12.45asdwe12';
 const k4 = 'qwqweeewq';
 
-console.log(Math.round(k1));
-console.log(Math.round(k2));
-console.log(Math.round(k3));
-console.log(Math.round(k4));
-
+console.log(parseInt(k1));
+console.log(parseInt(k2));
+console.log(parseInt(k3));
+console.log(parseInt(k4));
 
 // завдання 2
 
-
+console.log(parseFloat(k1));
+console.log(parseFloat(k2));
+console.log(parseFloat(k3));
+console.log(parseFloat(k4));
 
 
 // завдання 3
