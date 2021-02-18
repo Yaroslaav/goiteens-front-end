@@ -13,7 +13,14 @@ while (counter < 10) {
 
 // Завдання 2
 
-
+for(let  i = 1; i <10; i++){
+  const y = i % 2;
+  if(y != 0){
+    console.log(`Число парне - ${i}`);
+  }else{
+    console.log(`Число непарне - ${i}`);
+  }
+}
 
 
 
@@ -29,12 +36,21 @@ while (num <= 28) {
 
 //  Завдання 4
 
-let name = '';
-let lenghter = Number(name.length); 
+
+// name = prompt("Введіть ім'я улюбленого героя");
+let lenghter = ''; 
 
 
-while (lenghter<= 6){
-   name = prompt("Введіть ім'я улюбленого героя");
-   console.log(name);
-   break
+for (let name = 'yarik';;){
+  name = prompt("Введіть ім'я улюбленого героя");
+  lenghter = Number(name.length);
+  // let name = '';
+  if(lenghter<= 6){
+    
+    console.log(name);
+  }else{
+    console.log("Ім'я " + "перевищує ліміт");
+    break
+  }
+  
  }
