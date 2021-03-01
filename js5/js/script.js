@@ -16,9 +16,9 @@ while (counter < 10) {
 for(let  i = 1; i <10; i++){
   const y = i % 2;
   if(y != 0){
-    console.log(`Число парне - ${i}`);
-  }else{
     console.log(`Число непарне - ${i}`);
+  }else{
+    console.log(`Число парне - ${i}`);
   }
 }
 

@@ -127,7 +127,7 @@ a {
 }
 
 .block_items {
-  width: 330px;
+  width: 33.33%;
   display: inline-flex;
   justify-content: space-between;
   border: 1px solid invisible;
