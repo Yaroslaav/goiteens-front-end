@@ -9,9 +9,7 @@ console.log(Arr1[1] + Arr2[1]);
 
 
 // Завдання 2
-
-Arr1.push(22);
-console.log(Arr1);
+console.log(Arr1[]);
 
 
 // Завдання 3
