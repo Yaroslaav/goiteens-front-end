@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -24,25 +33,32 @@ a {
 }
 
 .mogo {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 30px;
   color: #95e1d3;
 }
 
 .manu-item {
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
   color: #95e1d3;
 }
 
 .manu-item1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
   color: #f38181;
 }
 
 .head-container {
-  margin-top: 28px;
+  padding-top: 28px;
   display: flex;
   justify-content: space-between;
 }
@@ -72,8 +88,10 @@ a {
 }
 
 .KaushanScript {
-  font-family: "Blackadder ITC", "Trebuchet MS", sans-serif;
+  font-family: 'Kaushan Script';
   font-size: 24px;
+  font-weight: 400;
+  color: #333333;
 }
 
 .Montserrat {
@@ -97,32 +115,23 @@ a {
   margin: 43px auto 66px;
 }
 
+.main{
+  margin-bottom: 92px;
+}
+
 .items-block {
   display: inline-flex;
   justify-content: space-between;
   border: 1px solid invisible;
   flex-wrap: wrap;
-  margin: 0px 0px 95px;
 }
 
 .block_items {
-  width: 330px;
+  width: 33.33%;
   display: inline-flex;
   justify-content: space-between;
   border: 1px solid invisible;
   margin: 0px 0px 100px 0px;
-}
-
-.items_img {
-}
-
-.items_title {
-}
-
-.items_text {
-}
-
-.p_container {
 }
 
 .help {
@@ -150,9 +159,11 @@ a {
 }
 
 .lorem {
+  margin-bottom: 92px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  margin: 0 0 97px 0;
+  font-weight: 400;
+  color: #999999;
 }
 
 .photo_border {
@@ -166,26 +177,34 @@ a {
 }
 
 .photo_title {
+  margin-top: 31px;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  margin: 32px 0 16px 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333333;
 }
 
 .photo_text {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  margin: 0 0 82px 0;
+  font-weight: 300;
+  font-style: italic;
+  color: #999999;
+  margin: 15px 0 82px 0;
 }
 
 footer {
   border-top: 1px solid #000;
-  height: 63px;
+  min-height: 63px;
 }
 
 .footer_container {
   align-items: center;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  vertical-align: middle;
 }
 
 #id_input {
@@ -197,6 +216,7 @@ footer {
 }
 
 .button {
+  border: 1px solid #95e1d3;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #fff;
@@ -218,9 +238,11 @@ footer {
   margin: 11px 0;
 }
 
-.span {
+.span_container {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+  font-weight: 400;
+  color: #333333;
 }
 
 .spa {
@@ -229,123 +251,371 @@ footer {
   color: #f38181;
 }
 
-.hover1 {
+.items_title{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.items_text{
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;  
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.email::placeholder{
+  padding-left: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  color: #cccccc;
+}
+
+.form{
+  display: flex;
+}
+
+.email{
+  border: 1px solid #e7e7e7;
+}
+
+.photo{
   width: 380px;
   height: 470px;
-  background-image: url(../img/Layer\ 16.png);
 }
 
-.hover1:hover {
+.hover-image1{
+  background: url(../img/Layer\ 16.png);
+}
+
+.hover-image2{
+  background: url(../img/Layer\ 19.png);
+}
+
+.hover-image3{
+  background: url(../img/Layer\ 18.png);
+}
+
+.hover-image1{
   position: relative;
-  background: #95e1d3;
+
 }
 
-.hover1:hover::before {
+.hover-image1:hover{
+  background: #95e1d3 ;
+
+}
+
+.hover-image1:hover::before{
+  content: '';
+  width: 380px;
+  height: 470px;
+  background: url(../img/Layer\ 17.png);
   position: absolute;
   top: -10px;
   left: -10px;
-  content: "";
-  display: block;
-  background-image: url(../img/Layer\ 17.png);
-  width: 380px;
-  height: 470px;
 }
 
-.hover2 {
-  width: 380px;
-  height: 470px;
-  background-image: url(../img/Layer\ 19.png);
-}
-
-.hover2:hover {
+.hover-block1{
   position: relative;
-  background: #95e1d3;
+} 
+
+.messenger_facebook{
+  background: url(../img/facebook_668.png) center center no-repeat;
 }
 
-.hover2:hover::before {
+.messenger_twiter{
+  background: url(../img/twitter_666.png) center center no-repeat;
+}
+
+.messenger_pinterest{
+  background: url(../img/pinterest_669.png) center center no-repeat;
+}
+
+.messenger_instagram{
+  background: url(../img/instagram_665.png) center center no-repeat;
+}
+.messengers{
+  display: none;
+  position: absolute;
+  top: 197px;
+  left: 68px;
+}
+
+.mesenger{
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+  display: inline-block;
+
+}
+
+.mesenger1{
+  width: 56px;
+  height: 56px;
+  background-color: #95e1d3;
+  display: inline-block;
+}
+
+.hover-block1{
+  position: relative;
+}
+
+
+
+
+.messengers{
+  display: flex;
+  z-index: 2;
+}
+
+
+.hover-bacground{
+  z-index: 1;
+  display: none;
+  width: 380px;
+  height: 470px;
+  background: url(../img/Layer\ 17.png);
   position: absolute;
   top: -10px;
   left: -10px;
-  content: "";
-  display: block;
-  background-image: url(../img/Layer\ 20.png);
-  width: 380px;
-  height: 470px;
 }
 
-.hover3 {
-  width: 380px;
-  height: 470px;
-  background-image: url(../img/Layer\ 18.png);
-}
-
-.hover3:hover {
-  position: relative;
+.messengers:hover ~ .hover-image1{
   background: #95e1d3;
 }
 
-.hover3:hover::before {
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  content: "";
+.messengers:hover ~ .hover-bacground{
   display: block;
-  background-image: url(../img/Layer\ 21.png);
-  width: 380px;
-  height: 470px;
 }
 
-.photo_button1 {
-  width: 56px;
-  height: 56px;
-  background: #95e1d3;
+
+
+.mesenger:not(:last-child){
+  border-right: 1px solid #f38181;
 }
 
-.photo_button2 {
-  width: 56px;
-  height: 56px;
-  background: #fce38a;
+.mesenger1{
+  border-right: 1px solid #f38181;
 }
 
-.photo_button3 {
-  width: 56px;
-  height: 56px;
-  background: #fce38a;
-}
-
-.photo_button4 {
-  width: 56px;
-  height: 56px;
-  background: #fce38a;
-}
-
-.buttons {
+.messengers{
   display: none;
 }
 
-.hover_help {
+.hover-block1:hover  .messengers{
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+.hover-image2{
+  position: relative;
+
+}
+
+.hover-image2:hover{
+  background: #95e1d3 ;
+
+}
+
+.hover-image2:hover::before{
+  content: '';
+  width: 380px;
+  height: 470px;
+  background: url(../img/Layer\ 20.png);
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.hover-block2{
+  position: relative;
+} 
+
+.messengers2{
+  display: none;
+  position: absolute;
+  top: 197px;
+  left: 68px;
+}
+
+.mesenger{
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+  display: inline-block;
+
+}
+
+.mesenger1{
+  width: 56px;
+  height: 56px;
+  background-color: #95e1d3;
+  display: inline-block;
+}
+
+.hover-block2{
   position: relative;
 }
 
-.hover_help:hover > .buttons1 {
-  display: inline-flex;
-  position: absolute;
-  top: 50%;
-  left: 80px;
-}
 
-.photo_button {
+
+
+.messengers2{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  z-index: 2;
 }
 
-body {
-  background-color: #00abff;
-  background-image: linear-gradient(
-    135deg,
-    #00abff 0%,
-    #fd02ec 46%,
-    #7504ff 100%
-  );
+
+.hover-bacground2{
+  z-index: 1;
+  display: none;
+  width: 380px;
+  height: 470px;
+  background: url(../img/Layer\ 20.png);
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.messengers2:hover ~ .hover-image2{
+  background: #95e1d3;
+}
+
+.messengers2:hover ~ .hover-bacground2{
+  display: block;
+}
+
+
+
+.mesenger2:not(:last-child){
+  border-right: 1px solid #f38181;
+}
+
+.mesenger1{
+  border-right: 1px solid #f38181;
+}
+
+.messengers2{
+  display: none;
+}
+
+.hover-block2:hover  .messengers2{
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+.hover-image3{
+  position: relative;
+
+}
+
+.hover-image3:hover{
+  background: #95e1d3 ;
+
+}
+
+.hover-image3:hover::before{
+  content: '';
+  width: 380px;
+  height: 470px;
+  background: url(../img/Layer\ 21.png);
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.hover-block3{
+  position: relative;
+} 
+
+.messengers3{
+  display: none;
+  position: absolute;
+  top: 197px;
+  left: 68px;
+}
+
+.mesenger{
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+  display: inline-block;
+
+}
+
+.mesenger3{
+  width: 56px;
+  height: 56px;
+  background-color: #95e1d3;
+  display: inline-block;
+}
+
+.hover-block3{
+  position: relative;
+}
+
+
+
+
+.messengers3{
+  display: flex;
+  z-index: 2;
+}
+
+
+.hover-bacground3{
+  z-index: 1;
+  display: none;
+  width: 380px;
+  height: 470px;
+  background: url(../img/Layer\ 21.png);
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.messengers3:hover ~ .hover-image3{
+  background: #95e1d3;
+}
+
+.messengers3:hover ~ .hover-bacground3{
+  display: block;
+}
+
+
+
+.mesenger:not(:last-child){
+  border-right: 1px solid #f38181;
+}
+
+.mesenger1{
+  border-right: 1px solid #f38181;
+}
+
+.messengers3{
+  display: none;
+}
+
+.hover-block3:hover  .messengers3{
+  display: flex;
 }
