@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -174,37 +177,60 @@ color: #777777;
 }
 
 .input::placeholder{
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-text-transform: uppercase;
-color: #bbbbbb;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+  color: #bbbbbb;
 }
 
 .textarea::placeholder{
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: -0.025em;
-color: #bbbbbb;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+  color: #bbbbbb;
 }
 
 .textarea{
   padding-top: 20px;
   padding-left: 21px;
 }
-.BRadius{
-  border-radius: 5px 5px 5px 5px;
-  /* border: 4px solid #8d00fe; */
+
+.forms{
+  display: flex;
 }
 
+.inputs{
+  display: flex;
+  flex-direction: column;
+  margin-right: 28px;
+}
+
+.form2{
+  display: flex;
+  align-items: center;
+
+}
+
+.textarea{
+  border-radius: 5px;
+}
+
+.BRadius{
+  border-radius: 5px;
+}
 .yellow_button{
   width: 240px;
   height: 66px;
   background-color: #fed136;
   font-family: Montserrat;
   font-size: 18px;
+  line-height: 1.2;
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
@@ -227,4 +253,8 @@ color: #bbbbbb;
 
 .item2:not(:last-child){
   margin-right: 56px;
+}
+
+.manu_item:hover{
+  color: #fed136;
 }
