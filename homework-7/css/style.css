@@ -185,6 +185,16 @@ color: #666666;
   border: 2px solid #ff4e50;
   margin-bottom: 57px;
 }
+
+.absolute_container{
+  position: relative;
+}
+
+.partner_photo{
+  position: absolute;
+  top: 83px;
+  left: 123px;
+}
 @media screen and (min-width: 520px) {
   
 
