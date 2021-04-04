@@ -1,14 +1,13 @@
-'use strich'
+'use strict'
 
 
 // Завдання 1
 console.log('Завдання 1');
 
 function hello1 (js) {
-  js = 'Привіт JavaScript';
-  return js;
+  return "Привіт, " +  js;
 }
-console.log(hello1());
+console.log(hello1("JavaScript"));
 
 console.log('----------------------------------------------------------------');
 
@@ -26,16 +25,17 @@ console.log('----------------------------------------------------------------');
 // Завдання 3
 console.log('Завдання 3');
 function mul (n, m) {
-  return 'n * m = ' + (n*m) + ', ' + 'n + m = ' + (n+m) + ', ' + 'm - n = ' + (m-n);
+  let Array = [n*m, m+n, m-n];
+  return Array;
 }
 
-console.log(mul());
+console.log(mul(4,6));
 
 console.log('----------------------------------------------------------------');
 
 // Завдання 4
 console.log('Завдання 4');
-const myNewArrowFunction = (...arguments) => console.log(arguments);
+const myNewArrowFunction = (...args) => console.log(args);
 
 myNewArrowFunction(1, 2, 3);
 myNewArrowFunction(100, 200, 300, 400, 500);
